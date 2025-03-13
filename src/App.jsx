@@ -1,33 +1,36 @@
 import Header from "./Components/Header/Header"
-import Section from "./Components/Section/Section"
+import Section_3 from "./Components/Section_3/Section_3"
+import Section_1 from "./Components/Section_1/Section_1"
+import Footer from "./Components/Footer/Footer"
 
 
-import User from "./Components/User/User"
-import one from "./assets/img/one.png"
-import two from './assets/img/two.png';
-import three from './assets/img/three.png';
-import four from './assets/img/four.png';
-import five from './assets/img/five.png';
-import six from './assets/img/six.png';
-import seven from './assets/img/seven.png';
-import eight from './assets/img/eight.png';
+// import User from "./Components/User/User"
+// import one from "./assets/img/one.png"
+// import two from './assets/img/two.png';
+// import three from './assets/img/three.png';
+// import four from './assets/img/four.png';
+// import five from './assets/img/five.png';
+// import six from './assets/img/six.png';
+// import seven from './assets/img/seven.png';
+// import eight from './assets/img/eight.png';
 
-import Card from "./Components/Card/Card";
-import img1 from './assets/img/img1.png';
-import img2 from './assets/img/img2.png';
-import img3 from './assets/img/img3.png';
+// import Card from "./Components/Card/Card";
+// import img1 from './assets/img/img1.png';
+// import img2 from './assets/img/img2.png';
+// import img3 from './assets/img/img3.png';
 function App() {
 
   return (
     <>
 
-      {/* <Header />
+      <Header />
       
       <main>
-        <Section />
-      </main> */}
-
-      <div className="w-[1350px] mx-auto px-4 bg-[#F2EFEF]">
+        <Section_1/>
+        <Section_3/>
+      </main>
+      <Footer/>
+      {/* <div className="w-[1350px] mx-auto px-4 bg-[#F2EFEF]">
         <h1 className="text-[50px] text-center">User Card</h1>
 
         <div className="flex flex-wrap gap-4 justify-center">
@@ -56,7 +59,7 @@ function App() {
             userName={"Discovering the World of Mountains"}
             userJob={"In this awe-inspiring exploration, we set out to uncover the beauty and allure of mountains, those ancient giants that tower over the landscape and evoke a sense of wonder and admiration. "} />
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
